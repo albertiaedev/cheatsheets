@@ -30,4 +30,9 @@
 4. my_var3 = 'hello world'
 5. 1var #can't begin with a number
 6. _var #shouldn't be used again in the code
+
+#Built-in Functions
+1. print() #It prints the arguments you give to it on screen #Takes keywords 'end' & 'sep'
+2. input() #It takes the input from the user and prints it on screen converted into a string
+3. len() #It counts the characters in a string or values in a list or dictionary and returns an integer number
 """
