@@ -1,6 +1,5 @@
 #PANDAS CHEATSHEET
 
-"""
 #Import the library
 import pandas as pd
 
@@ -58,11 +57,34 @@ df.fillna(‘0’,inplace=True)
 df = pd.read_csv(‘name.csv’)
 
 #Read EXCEL
-df = pd.read_xlsx(‘name.xlsx’)
+df = pd.read_excel(‘name.xlsx’)
 
 #Read JSON
 df = pd.read_json(‘name.json’)
 
 #Read TXT
 df = pd.read_table(‘name.txt’)
-"""
+
+#Read HTML
+df = pd.read_html(‘name.html’)
+
+#Read SQL
+df = pd.read_sql(‘name.db’)
+
+#Write CSV
+df = pd.to_csv(‘name.csv’)
+
+#Write EXCEL
+df = pd.to_excel(‘name.xlsx’)
+
+#Write JSON
+df = pd.to_json(‘name.json’)
+
+#Write TXT
+df = pd.to_table(‘name.txt’)
+
+#Write HTML
+df = pd.to_html(‘name.html’)
+
+#Write SQL
+df = pd.to_sql(‘name.db’)
