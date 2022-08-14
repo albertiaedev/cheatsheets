@@ -34,3 +34,11 @@
 1. print() #It prints the arguments you give to it on screen #Takes keywords 'end' & 'sep'
 2. input() #It takes the input from the user and prints it on screen converted into a string
 3. len() #It counts the characters in a string or values in a list or dictionary and returns an integer number
+
+#User Input
+1. name=input("What's your name? -> ")
+   print(name)
+2. age=int(input("How old are you? -> "))
+   print(age)
+3. pi=float(input("What's the value of pi -> "))
+   print(pi)
