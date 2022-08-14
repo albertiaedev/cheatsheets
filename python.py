@@ -31,14 +31,17 @@
 6. _var #shouldn't be used again in the code
 
 #Built-in Functions
-1. print() #It prints the arguments you give to it on screen #Takes keywords 'end' & 'sep'
-2. input() #It takes the input from the user and prints it on screen converted into a string
-3. len() #It counts the characters in a string or values in a list or dictionary and returns an integer number
+1. print() #it prints the arguments you give to it on screen #takes keywords 'end' & 'sep'
+2. input() #it takes the input from the user and prints it on screen converted into a string
+3. len() #it counts the characters in a string or values in a list or dictionary and returns an integer number
 
 #User Input
-1. name=input("What's your name? -> ")
+1. name=input("What's your name? -> ") #input a string of characters
    print(name)
-2. age=int(input("How old are you? -> "))
+2. age=int(input("How old are you? -> ")) #input an integer number
    print(age)
-3. pi=float(input("What's the value of pi -> "))
+3. pi=float(input("What's the value of pi -> ")) #input a floating number
    print(pi)
+
+#Tuples
+1. tuple = ("Summer", "Winter", "Fall", "Spring") #tuples are inmutable
