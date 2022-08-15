@@ -46,8 +46,8 @@
 #Tuples
 1. tuple = ("Summer", "Winter", "Fall", "Spring") #tuples are inmutable
 
-#List
-1. colors = ['red','blue','green','yellow','orange','white','black'] #make a list
+#Lists
+1. colors = ['red','blue','green','yellow','orange','white','black'] #create a list
 2. print(colors[0]) #get the first item in the list #forward
 3. print(colors[1]) #get the second item in the list #forward
 4. print(colors[-1]) #get the last item in the list #backwards
@@ -58,3 +58,12 @@
 7. colors = ['red','blue','green','yellow','orange','white','black'] #slicing through a list
    print(colors[1:3]) = ['blue', 'green'] #slicing includes the first item you pass to it
                                           #and excludes the last one you pass to it
+
+#Dictionaries
+ppl_age = {'Brad':21, 'Jane':30, 'Bianca':24, 'Josh':30} #create a dictionary #dictionaries are a pair of key:value
+for k in ppl_age:
+   print(ppl_age[key]) #access to keys
+   'Brad', 'Jane', 'Bianca', 'Josh'
+for v in ppl_age:
+   print(ppl_age[value]) #access to values
+   21, 30, 24, 30
