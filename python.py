@@ -31,9 +31,21 @@
 6. _var #shouldn't be used again in the code
 
 #Built-in Functions
-1. print() #it prints the arguments you give to it on screen #takes keywords 'end' & 'sep'
-2. input() #it takes the input from the user and prints it on screen converted into a string
-3. len() #it counts the characters in a string or values in a list or dictionary and returns an integer number
+1. abs() #returns the absolute value of a number
+2. all() #returns True if all the elements in the iterable are true
+3. any() #returns True if any element of the iterable is true
+4. bin() #convert an integer number to a binary string
+5. bool() #returns a boolean value
+6. eval() #evaluates and executes an expression
+7. filter() #construct an iterator from an iterable and returns True
+8. float() #returns a floating point number from a number or string
+9. format() #convert a value to a 'formatted' representation
+10. getattr() #returns the value of the named attribute of object
+11. help() #invoke the built-in help system
+12. hex() #convert an integer number to a lowercase hexadecimal string
+2. input() #takes the input from the user and prints it on screen converted into a string
+3. len() #counts the characters in a string or values in a list or dictionary and returns an integer number
+1. print() #prints the arguments you give to it on screen #takes keywords 'end' & 'sep'
 
 #User Input
 1. name=input("What's your name? -> ") #input a string of characters
