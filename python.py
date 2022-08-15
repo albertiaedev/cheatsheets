@@ -45,3 +45,16 @@
 
 #Tuples
 1. tuple = ("Summer", "Winter", "Fall", "Spring") #tuples are inmutable
+
+#List
+1. colors = ['red','blue','green','yellow','orange','white','black'] #make a list
+2. print(colors[0]) #get the first item in the list #forward
+3. print(colors[1]) #get the second item in the list #forward
+4. print(colors[-1]) #get the last item in the list #backwards
+5. for color in colors: #looping throgh a list
+      print(color)
+6. colors = []
+   colors.append('red') #adding items to a list
+7. colors = ['red','blue','green','yellow','orange','white','black'] #slicing through a list
+   print(colors[1:3]) = ['blue', 'green'] #slicing includes the first item you pass to it
+                                          #and excludes the last one you pass to it
