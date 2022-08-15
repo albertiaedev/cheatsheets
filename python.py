@@ -62,7 +62,7 @@
 28. sorted() #returns a new sorted list from the items in iterable
 29. str() #returns a string version of an object
 30. sum() #sums all the items in iterable
-31. tuple() #cretes an empty tuple #a tuple is an inmutable object
+31. tuple() #converts a list into a tuple #a tuple is an inmutable object
 32. type() #returns the type of an object
 
 #User Input
