@@ -117,3 +117,4 @@
       print("You are a teenager.") #if-elif-else statements
     else:
       print("You are an adult.")
+12. <expression1> if <condition> else <expression2> #ternary conditional operator
