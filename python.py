@@ -60,10 +60,30 @@
                                           #and excludes the last one you pass to it
 
 #Dictionaries
-ppl_age = {'Brad':21, 'Jane':30, 'Bianca':24, 'Josh':30} #create a dictionary #dictionaries are a pair of key:value
-for k in ppl_age:
-   print(ppl_age[key]) #access to keys
-   'Brad', 'Jane', 'Bianca', 'Josh'
-for v in ppl_age:
-   print(ppl_age[value]) #access to values
-   21, 30, 24, 30
+1. ppl_age = {'Brad':21, 'Jane':30, 'Bianca':24, 'Josh':30} #create a dictionary #dictionaries are a pair of key:value
+2. for k in ppl_age:
+      print(ppl_age[key]) #access to keys
+      'Brad', 'Jane', 'Bianca', 'Josh'
+3. for v in ppl_age:
+      print(ppl_age[value]) #access to values
+      21, 30, 24, 30
+
+#Conditional Statements
+1. a == 10 #equals
+2. a != 10 #not equal
+3. a > 10 #greater than
+4. a >= 10 #greater than or equal to
+5. a < 10 #less than
+6. a <= 10 #less than or equal to
+7. and #if a>10 and a<=20: #both conditions have to occur for it to be true, otherwise it's false
+8. or #if a<10 or a>=20: #only one has to occur for it to be true, if none occur it's false
+9. not #if not a==10: #it's true only if the variable is not equal to 10, otherwise it's false
+10. colors = ['red','blue','green','yellow','orange','white','black'] #conditionañ test with list
+    'red' in colors == True
+    'green' not in colors == False
+11. if age < 13:
+      print("You are a kid.")
+    elif age < 20:
+      print("You are a teenager.") #if-elif-else statements
+    else:
+      print("You are an adult.")
