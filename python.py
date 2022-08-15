@@ -36,16 +36,34 @@
 3. any() #returns True if any element of the iterable is true
 4. bin() #convert an integer number to a binary string
 5. bool() #returns a boolean value
+6. callable() #returns True if the object argument is callable and False if not
+7. dict() #creates an empty dictionary
 6. eval() #evaluates and executes an expression
-7. filter() #construct an iterator from an iterable and returns True
-8. float() #returns a floating point number from a number or string
-9. format() #convert a value to a 'formatted' representation
-10. getattr() #returns the value of the named attribute of object
-11. help() #invoke the built-in help system
-12. hex() #convert an integer number to a lowercase hexadecimal string
-2. input() #takes the input from the user and prints it on screen converted into a string
-3. len() #counts the characters in a string or values in a list or dictionary and returns an integer number
-1. print() #prints the arguments you give to it on screen #takes keywords 'end' & 'sep'
+8. filter() #construct an iterator from an iterable and returns True
+9. float() #returns a floating point number from a number or string
+10. format() #convert a value to a 'formatted' representation
+11. getattr() #returns the value of the named attribute of object
+12. help() #invoke the built-in help system
+13. hex() #convert an integer number to a lowercase hexadecimal string
+14. input() #takes the input from the user and prints it on screen converted into a string
+15. int() #returns an integer object constructed from a number or a string
+16. isinstance() #returns True if the object argument is an instance of an object
+17. issubclass() #returns True is class is a subclass
+18. len() #counts the characters in a string or values in a list or dictionary and returns an integer number
+19. list() #creates an empty list #a list is a mutable object
+20. map() #returns an iterator that applies function to every item of iterable
+21. max() #returns the largest item in an iterable
+22. min() #returns the smallest item in an iterable
+23. next() #retrieves the next item from the iterator
+24. open() #open file and return a corresponding file object
+25. print() #prints the arguments you give to it on screen #takes keywords 'end' & 'sep'
+26. round() #returns an integer after ndigits is rounded from the decimal point
+27. slice() #returns a sliced object representing a set of indices
+28. sorted() #returns a new sorted list from the items in iterable
+29. str() #returns a string version of an object
+30. sum() #sums all the items in iterable
+31. tuple() #cretes an empty tuple #a tuple is an inmutable object
+32. type() #returns the type of an object
 
 #User Input
 1. name=input("What's your name? -> ") #input a string of characters
