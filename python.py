@@ -132,5 +132,17 @@
 12. <expression1> if <condition> else <expression2> #ternary conditional operator
 
 #Handling Exceptions
-
-
+1. #TRY/EXCEPT:
+   divident = float(input("divident: "))
+   divisor = float(input("divisor: "))
+   try:
+      print(divident/divisor)
+   except ZeroDivisionError:
+      print("You cannot divide by 0.")
+2. #FINALLY:
+   try:
+      print(dividend / divisor)
+   except ZeroDivisionError:
+      print('You can not divide by 0')
+   finally:
+      print('Execution finished') #the finally code is always executed even if the exception is raised or not
