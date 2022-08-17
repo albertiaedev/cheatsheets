@@ -98,6 +98,18 @@
       print(ppl_age[value]) #access to values
       21, 30, 24, 30
 
+#Functions
+1. #a funtion can take arguments and return values
+2. def function_name(): #function with no arguments
+      print("Hello World")
+   function_name()
+3. def function_name(name): #function recives an arguments
+      print(f"Hello {name}")
+   function_name("World")
+4. def add(num1,num2): #most times the function has a return value that indicates the value the function should return
+      return num1 + num2
+   add("2,2")
+
 #Conditional Statements
 1. a == 10 #equals
 2. a != 10 #not equal
@@ -118,3 +130,7 @@
     else:
       print("You are an adult.")
 12. <expression1> if <condition> else <expression2> #ternary conditional operator
+
+#Handling Exceptions
+
+
