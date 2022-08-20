@@ -16,6 +16,9 @@ automatically, so you can focus only on building the app. """
 #Create a project
 django-admin startproject {project_name}
 
+#Make migrations
+python manage.py migrate #go inside your project directory to migrate
+
 #Run server
 python manage.py runserver #it runs the server on your localhost http://127.0.0.1:8000/
 
