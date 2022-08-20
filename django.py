@@ -10,8 +10,8 @@ automatically, so you can focus only on building the app. """
 2. python -m venv {venv_name} #for linux/macOS
 
 #Activate your virtual environment
-1. myproject\Scripts\activate.bat #for windows
-2. source myproject/bin/activate #for linux/macOS
+1. {venv_name}\Scripts\activate.bat #for windows
+2. source {venv_name}/bin/activate #for linux/macOS
 
 #Create a project
 django-admin startproject {project_name}
