@@ -24,3 +24,39 @@ git clone {url}
 
 #List all the local branches on the machine
 git branch
+
+#merge the provided branch with the current working branch
+git merge {branch_name}
+
+#Create a new branch locally
+git branch {branch_name}
+
+#Delete a branch
+git branch -d {branch_name}
+
+#Rename the current working branch
+git branch -m {branch_new_name}
+
+#Swicth from the current branch to another one
+git checkout {branch_name}
+
+#Save all commits to a remote repository
+git push {url} {branch_name}
+
+#Create a new branch and swicth to it
+git checkout -b {branch_name}
+
+#Pull down all the updates from a remote repository
+git pull {url}
+
+#Remove a file from the local directory
+git rm {file_name}
+
+#Remove uncommited chances temporarily
+git stash
+
+#Chance to the local files and restore to the last commit
+git reset
+
+#Display the difference between files in two commits or between a commit and your current repository
+git diff
