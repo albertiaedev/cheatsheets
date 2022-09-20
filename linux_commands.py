@@ -23,3 +23,20 @@
 18. head {file} #output the first 10 lines of {file}
 19. tail {file} #output the last 10 lines of {file}
 20. tail -f {file} #output the contents of {file} as it grows, starting with the last 10 lines
+
+#system info
+1. date #show the current date and time
+2. cal #show this months calendar
+3. uptime #show current uptime
+4. w #display who is online
+5. whoami #who you are logged in as
+6. finger {user} #display information about {user}
+7. uname -a #show kernel information
+8. cat /proc/cpuinfo #cpu information
+9. cat /proc/meinfo #memory information
+10. man {command} #show the manual for {command}
+11. df #show disk usage
+12. du #show directory space usage
+13. free #show memory and swap usage
+14. whereis {app} #show possible locations of {app}
+15. which {app} #show which {app} will be run by default
