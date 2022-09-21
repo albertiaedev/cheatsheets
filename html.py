@@ -32,3 +32,21 @@
 <body> #defines the documents body
 <br> #defines a single line break
 <button> #defines a clickable button
+<canvas> #used for drawing graphics, on the fly, with a script (usually JavaScript)
+<caption> #defines a table caption
+<cite> #defines the title of the work
+<code> #defines a piece of computer code
+<col> #specifies column properties for each column within a <colgroup> element
+<colgroup> #specifies a group of one or more colums in a table for formatting
+<data> #adds a machine-readable translation of a given content
+<datalist> #specifies a list of pre-defined options for input controls
+<dd> #defines a description/value of a term in a description list
+<del> #defines text that has been deleted from a document
+<details> #defines additional details that the user can view or hide
+<dfn> #specifies a term that is going to be defined within the content
+<dialog> #defines a dialog box or window
+<div> #defines a section in a document
+<dl> #defines a description list
+<dt> #defines a term/name in a description list
+<em> #defines emphasized text
+<embed> #defines a container for an external application
