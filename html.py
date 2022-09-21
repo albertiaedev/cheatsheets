@@ -1,6 +1,14 @@
 #HTML CHEATSHEET
 
-'''
-this cheatsheet is
-coming soon
-'''
+#html boiler-plate
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+</html>
