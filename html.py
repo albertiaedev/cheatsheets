@@ -50,3 +50,11 @@
 <dt> #defines a term/name in a description list
 <em> #defines emphasized text
 <embed> #defines a container for an external application
+<fieldset> #groups related elements in a form
+<footer> #defines a footer for a document or section
+<form> #defines a HTML form for user input
+<h1>-<h6> #defines HTML headings
+<head> #contains metadata/information for the document
+<header> #defines a header for a document or section
+<hr> #defines a thematic change in content
+<html> #defines the root of a HTML document
