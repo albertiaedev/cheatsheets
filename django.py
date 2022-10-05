@@ -42,3 +42,6 @@ def {template}(request):
     'action':action
   }
   return render(request, '{template}.html', context)
+
+#Create a superuser
+django-admin createsuperuser {superuser}
