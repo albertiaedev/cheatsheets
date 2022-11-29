@@ -60,3 +60,12 @@ django-admin --version
 
 #Creating new migrations
 django-admin makemigrations
+
+#Sending a test email
+django-admin sendtestemail
+
+#Start Python's interactive interpreter
+django-admin shell
+
+#Show all the migrations in your project
+django-admin showmigrations
