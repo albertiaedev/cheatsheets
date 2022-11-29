@@ -168,7 +168,7 @@
 3. defpath #default search path
 4. devnull #path of null device
 5. extsep #extension separator
-6. linesep # line separator
+6. linesep #line separator
 7. name #name of os
 8. pardir #parent dir string
 9. pathsep #patch separator
