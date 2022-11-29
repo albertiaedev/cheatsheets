@@ -45,3 +45,9 @@ def {template}(request):
 
 #Create a superuser
 django-admin createsuperuser {superuser}
+
+#Display the usage information
+django-admin help
+
+#List of available commands
+django-admin help {command}
