@@ -162,3 +162,14 @@
 12. version_info #python version info
 13. winver #version number
      
+#os Variables
+1. altsep #alternative sep
+2. curdir #current dir string
+3. defpath #default search path
+4. devnull #path of null device
+5. extsep #extension separator
+6. linesep # line separator
+7. name #name of os
+8. pardir #parent dir string
+9. pathsep #patch separator
+10. sep #path separator
