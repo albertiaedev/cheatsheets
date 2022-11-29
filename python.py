@@ -146,3 +146,19 @@
       print('You can not divide by 0')
    finally:
       print('Execution finished') #the finally code is always executed even if the exception is raised or not
+
+#sys Variables
+1. argv #command line args
+2. builtin_module_names #linked C modules
+3. byteorder #native byte order
+4. check_interval #signal check frequency
+5. exec_prefix #root directory
+6. executable #name of executable
+7. exitfunc #exit function name
+8. modules #loaded modules
+9. path #search path
+10. platform #current platform
+11. stdin, stdout, stderr #file objects for i/o
+12. version_info #python version info
+13. winver #version number
+     
