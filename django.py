@@ -54,3 +54,9 @@ django-admin help --command
 
 #Display the description of a given command
 django-admin help {command}
+
+#Determining the version of Django
+django-admin --version
+
+#Creating new migrations
+django-admin makemigrations
