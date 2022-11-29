@@ -50,4 +50,7 @@ django-admin createsuperuser {superuser}
 django-admin help
 
 #List of available commands
+django-admin help --command
+
+#Display the description of a given command
 django-admin help {command}
