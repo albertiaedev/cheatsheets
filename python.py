@@ -173,3 +173,13 @@
 8. pardir #parent dir string
 9. pathsep #patch separator
 10. sep #path separator
+
+#Date Formatting
+1. %a #abbreviated weekday (sun, mon, tue...)
+2. %A #weekday (sunday, monday, tuesday...)
+3. %b #abbreviated month (jan, feb, mar...)
+4. %B #month (january, february, march...)
+5. %c #date and time
+6. %d #day(01 to 31)
+7. %H #24 hour (00 to 23)
+8. %I # 12 hour (01 to 12)
