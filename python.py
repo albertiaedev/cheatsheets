@@ -182,4 +182,18 @@
 5. %c #date and time
 6. %d #day(01 to 31)
 7. %H #24 hour (00 to 23)
-8. %I # 12 hour (01 to 12)
+8. %I #12 hour (01 to 12)
+9. %j #day of the year (001 to 366)
+10. %m #month (01 to 12)
+11. %M #minute (00 to 59)
+12. %p #am or pm
+13. %S #second (00 to 61)
+14. %U #week number #starting on sunday (00 to 53)
+15. %W #week number #starting on monday (00 to 53)
+16. %w #weekday (0 to 6)
+17. %x #date
+18. %X #time
+19. %y #year without century (00 to 99)
+20. %Y #year (2008)
+21. %Z #time zone (GMT)
+22. %% #a literal % character 
