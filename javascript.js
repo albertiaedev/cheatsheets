@@ -24,3 +24,10 @@
 10. array.length; // returns the number of elements in the array
 11. reverse(); // reverse the order of the elements in an array
 12. toString(); // returns a string representing the specified array and its elements
+
+//Date Objects
+1. getUTCMinutes(); // same as getMinutes(), but returns the UTC minutes
+
+2. getUTCSeconds(); // same as getSeconds(), but returns the UTC seconds
+
+3. getUTCMilliseconds(); // same as getMilliseconds(), but returns the UTC milliseconds
