@@ -27,7 +27,5 @@
 
 //Date Objects
 1. getUTCMinutes(); // same as getMinutes(), but returns the UTC minutes
-
 2. getUTCSeconds(); // same as getSeconds(), but returns the UTC seconds
-
 3. getUTCMilliseconds(); // same as getMilliseconds(), but returns the UTC milliseconds
