@@ -1,5 +1,10 @@
 //JAVASCRIPT CHEATSHEET
 
+//Variales
+1. var myVariable = 'This is a variable declared with var'; // declaring a variable using the word var
+2. let myVariable = 'This is a variable declared with let'; // declaring a variable using the word let
+3. const myConstant = 1000; // declaring a constant using the word const
+
 //String Methods
 1. string.includes('substring'); // checks whether a substring exists inside of a string
 2. string.indexOf(n); /*returns the index of the first occurrence of the specified value,
