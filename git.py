@@ -6,7 +6,7 @@ git config --global user.email #set an email address that will be associated wit
 git config --global color.ui auto #set automatic command line coloring for git for easy reviewing
 
 #Initializes a new local repository with git
-git init
+git init #works in an existing repository
 
 #Add files to the staging area
 git add {file_name} #use this command to add a single file to the staging area
