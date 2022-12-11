@@ -1,5 +1,10 @@
 //GIT CHEATSHEET
 
+//Setup
+git config --global user.name // set a name that is identifiable for credit when review version history
+git config --global user.email // set an email address that will be associated with each history marker
+git config --global color.ui auto // set automatic command line coloring for git for easy reviewing
+
 // Initializes a new local repository with git
 git init
 
