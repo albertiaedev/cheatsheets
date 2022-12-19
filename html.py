@@ -58,3 +58,20 @@
 <header> #defines a header for a document or section
 <hr> #defines a thematic change in content
 <html> #defines the root of a HTML document
+<i> #defines a part of text in an alternate voice or mood
+<iframe> #defines an inline frame
+<img> #defines an image
+<input> #defines an input control
+<ins> #defines a text that has been inserted into a document
+<kbd> #defines keyboard input
+<label> #defines a label for an input element
+<legend> #defines a caption for a fieldset element
+<li> #defines a list item
+<link> #defines the relationship between a document and an external resource (most used to link to style sheets)
+<main> #specifies the main content of a document
+<map> #defines an image map
+<mark> #defines marked/highlighted text
+<meta> #defines metadata about HTML document
+<meter> #defines a scalar measurement within a known range (a gauge)
+<nav> #defines navigation links
+<noscript> #defines an alternate content for users that do not support client-side scripts
