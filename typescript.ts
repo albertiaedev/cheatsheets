@@ -1,12 +1,27 @@
 //TYPESCRIPT CHEATSHEET
 
 //Basic Types
-any
-void
 
-boolean
-number
-string
+// any (for unknown data types)
+let someVariable: any = 10;
+let someVariable: any = 'string';
+let someVariable: any = true;
+
+// void (declaration for functions that do not return a value)
+function funcVoid(message: string): void {
+    console.log(message);
+}
+
+// boolean
+let bool: boolean = true;
+let bool: boolean = false;
+
+//number
+let num: number = 10;
+
+// string
+let str: string = "I'm learning TypeScript";
+
 
 null
 undefined
@@ -14,6 +29,7 @@ undefined
 bigint
 symbol
 
+// array
 string[]          /* or Array<string> */
 [string, number]  /* tuple */
 
@@ -22,6 +38,7 @@ string | null | undefined   /* union */
 never  /* unreachable */
 unknown
 
+// enum
 enum Color {
   Red,
   Green,
