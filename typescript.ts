@@ -192,3 +192,24 @@ const literalPoint = { x: 4, y: 2 } as const; // { readonly x: 4, readonly y: 2 
 type SpaceChar = ' ' | '\n' | '\t';
 type TrimLeft<S extends string> = S extends `${SpaceChar}${infer Rest}` ? TrimLeft<Rest> : S;
 type Str = TrimLeft<'    hello'>; // 'hello'
+
+//Classes
+class Calculator {
+    private result: number;
+    
+    constructor(){
+        this.result = 0;
+    }
+    
+    add(x: number) {
+        this.result += x;
+    }
+    
+    substract(x: number) {
+        this.result -= x;
+    }
+    
+    getResult(): number {
+        return.this.result;
+    }
+}
