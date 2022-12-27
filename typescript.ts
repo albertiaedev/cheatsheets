@@ -22,11 +22,16 @@ let num: number = 10;
 // string
 let str: string = "I'm learning TypeScript";
 
-
+// null
 null
+
+// undefined
 undefined
 
+//bigint
 bigint
+
+//symbol
 symbol
 
 // array
@@ -193,10 +198,13 @@ type SpaceChar = ' ' | '\n' | '\t';
 type TrimLeft<S extends string> = S extends `${SpaceChar}${infer Rest}` ? TrimLeft<Rest> : S;
 type Str = TrimLeft<'    hello'>; // 'hello'
 
-//Classes
+//Modifiers
 class Calculator {
-    private result: number;
-    
+    private result: number; 
+    /*
+        Everything in a TypeScript class defaults to public, you can mark class
+        members as private and this will prevent it being accessed outside of the class.
+    */
     constructor(){
         this.result = 0;
     }
@@ -213,3 +221,8 @@ class Calculator {
         return.this.result;
     }
 }
+ // now use it
+let calculator = new Calculator();
+calculator.add(10); // it will add 10 to the constructor
+calculator.substract(5); // it will substract 5 from the constructor
+console.log(calculator.getResult()); // it shows the result in the constructor through the console
