@@ -38,7 +38,19 @@ symbol
 string[]          /* or Array<string> */
 [string, number]  /* tuple */
 
+// union types
 string | null | undefined   /* union */
+   // example:
+let dual: string | boolean;
+dual = 'Verified';
+dual = true;
+
+// object (anything which isn't a primitive data type)
+let callApi() {
+    let thing: object = backen.get('/api/users');
+    thing = 42; // error: can't assign a number
+    thing = {name: 'Jessica'};
+}
 
 never  /* unreachable */
 unknown
