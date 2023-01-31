@@ -13,3 +13,15 @@
   $y = 10.5;
 ?> //Variable names are case-sensitive ($age and $AGE are two different variables)
 
+//Output variables
+<?php
+  $php = "PHP cheatsheet.";
+  echo "I am learning with a $php!";
+?> 
+//The PHP echo statement is often used to output data to the screen
+//Output the sum of two variables
+<?php
+  $x = 5;
+  $y = 4;
+  echo $x + $y;
+?> 
