@@ -25,3 +25,21 @@
   $y = 4;
   echo $x + $y;
 ?> 
+
+//Data Types
+/*
+* PHP supports the following data types:
+*   1. String
+*   2. Integer
+*   3. Float
+*   4. Boolean
+*   5. Array
+*   6. Object
+*   7. NULL
+*   8. Resource
+*/
+$x = "Hello world"; //STRING
+$x = 1000; //INTEGER
+$x = 1.11; //FLOAT
+$x = true; //or $x = false; //BOOLEAN
+$x = array("one", "two", "three"); //ARRAY
