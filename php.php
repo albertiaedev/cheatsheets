@@ -45,3 +45,9 @@
   $x = true; //or $x = false; //BOOLEAN
   $x = array("one", "two", "three"); //ARRAY
 ?>
+
+//Constants
+<?php
+  define("color", "red", true);
+  echo color;
+?>
