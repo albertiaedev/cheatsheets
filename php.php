@@ -48,6 +48,6 @@
 
 //Constants
 <?php
-  define("color", "red", true);
+  define("color", "red"; true);
   echo color;
 ?>
