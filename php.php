@@ -38,8 +38,10 @@
 *   7. NULL
 *   8. Resource
 */
-$x = "Hello world"; //STRING
-$x = 1000; //INTEGER
-$x = 1.11; //FLOAT
-$x = true; //or $x = false; //BOOLEAN
-$x = array("one", "two", "three"); //ARRAY
+<?php
+  $x = "Hello world"; //STRING
+  $x = 1000; //INTEGER
+  $x = 1.11; //FLOAT
+  $x = true; //or $x = false; //BOOLEAN
+  $x = array("one", "two", "three"); //ARRAY
+?>
