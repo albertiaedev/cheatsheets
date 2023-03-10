@@ -74,3 +74,7 @@ django-admin showmigrations
 1. python manage.py collectstatic
 2. python manage.py findstatic
 3. python manage.py runserver
+
+#Testing
+1. python manage.py test
+2. python manage.py testserver
