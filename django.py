@@ -69,3 +69,8 @@ django-admin shell
 
 #Show all the migrations in your project
 django-admin showmigrations
+
+#Static Files
+1. python manage.py collectstatic
+2. python manage.py findstatic
+3. python manage.py runserver
