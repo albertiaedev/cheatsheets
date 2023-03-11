@@ -85,3 +85,7 @@ class Student(models.Model):  
     username = models.CharField(max_length=20)  
     first_name = models.CharField(max_length=30)  
     last_name = models.CharField(max_length=30) 
+
+## Type these lines to apply migrations to db
+1. python manage.py makemigrations  
+2. python manage.py migrate 
