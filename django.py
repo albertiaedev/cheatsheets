@@ -78,3 +78,10 @@ django-admin showmigrations
 #Testing
 1. python manage.py test
 2. python manage.py testserver
+
+#ORM Queries
+## To create a db table go to models.py and type something like this
+class Student(models.Model):  
+    username = models.CharField(max_length=20)  
+    first_name = models.CharField(max_length=30)  
+    last_name = models.CharField(max_length=30) 
