@@ -58,11 +58,35 @@
   // For strings
   $var = "This is a string";
 
-  strtolower(); // Converts the string to lower case
-  strtoupper(); // Converts the string to upper case
-  strlen(); // Tells us how many characters there are in the string
+  strtolower($var); // Converts the string to lower case
+  strtoupper($var); // Converts the string to upper case
+  strlen($var); // Tells us how many characters there are in the string
   $var[0]; // Indexing the characters in the string
   $var[0] = "L"; //Replaces the indexed value in the string
   str_replace("string", "phrase", $var); // Replaces a specific word in a string
   substr($var, 8, /*optional, you can tell the number of the last character you want to index*/); // Isolates the string from index 8 and creates a subset with it
+
+  // For numbers
+  $num = 100;
+
+  abs($num); // Gives you the absolute value of a number
+  pow($num, $num); // Gives you the exponencial number
+  sqrt($num); // Gives you the square root of a number
+  max($num, $num); // Compares two numbers and tells you the bigger one
+  min($num, $num); // Compares two numbers and tells you the smaller one
+  round($num); // Rounds the number to its closest integer
+  ceil($num); // Rounds the number to its upper integer
+  floor($num); // Rounds the number to its lower integer
+?>
+
+// Operations with numbers
+<?php
+  $number = 10;
+  // Common operations
+  $number++; // Increases the variable $number by a number
+  $number--; // Decreases the variable $number by a number
+  $number += 10; // This is the equivalent to $number = $number + 10, so the output should be 20
+  $number -= 10; // This is the equivalent to $number = $number - 10, so the output should be 0
+  $number *= 10; // This is the equivalent to $number = $number * 10, so the output should be 100
+  $number /= 10; // This is the equivalent to $number = $number / 10, so the output should be 1
 ?>
