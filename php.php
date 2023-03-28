@@ -51,3 +51,18 @@
   define("color", "red"; true);
   echo color;
 ?>
+
+//Built-in functions
+<?php
+
+  // For strings
+  $var = "This is a string";
+
+  strtolower(); // Converts the string to lower case
+  strtoupper(); // Converts the string to upper case
+  strlen(); // Tells us how many characters there are in the string
+  $var[0]; // Indexing the characters in the string
+  $var[0] = "L"; //Replaces the indexed value in the string
+  str_replace("string", "phrase", $var); // Replaces a specific word in a string
+  substr($var, 8, /*optional, you can tell the number of the last character you want to index*/); // Isolates the string from index 8 and creates a subset with it
+?>
