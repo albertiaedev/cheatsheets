@@ -90,3 +90,15 @@
   $number *= 10; // This is the equivalent to $number = $number * 10, so the output should be 100
   $number /= 10; // This is the equivalent to $number = $number / 10, so the output should be 1
 ?>
+
+// Getting user input
+<?php
+  <form action="/*the name of the php page you're working on*/" method="get">
+    Input: <input type="text" name="input" placeholder="Your input" />
+    <input type="submit" />
+  </form>
+      
+  <br>
+      
+  <?php echo $_GET["input"] ?>
+?>
