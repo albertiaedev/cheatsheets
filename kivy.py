@@ -1,6 +1,5 @@
 #KIVY CHEATSHEET
 
-'''
-this cheatsheet is
-coming soon
-'''
+# Imports
+from kivy.app import App
+from kivy.uix.label import Label
