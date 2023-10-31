@@ -31,3 +31,13 @@ button.bind(on_press=on_button_press)
 
 # Add the button widget to the root widget
 root.add_widget(button)
+
+# KV file
+[Screen]
+BoxLayout:
+    orientation: 'vertical'
+    Label:
+        text: 'Hello, Kivy!'
+    Button:
+        text: 'Press Me!'
+        on_press: app.on_button_press()
