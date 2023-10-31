@@ -18,3 +18,16 @@ box_layout.add_widget(label)
 
 # Add the box layout to the root widget
 root.add_widget(box_layout)
+
+# Define an event handler
+def on_button_press(button):
+    print('Button pressed!')
+
+# Create a button widget
+button = Button(text='Press Me!')
+
+# Bind the button press event to the event handler
+button.bind(on_press=on_button_press)
+
+# Add the button widget to the root widget
+root.add_widget(button)
