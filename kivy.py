@@ -52,3 +52,12 @@ class MyApp(App):
 
 if __name__ == '__main__':
     MyApp().run()
+
+# Build the app for Android
+buildozer android debug
+
+# Build the app for iOS
+buildozer ios debug
+
+# Build the app for Windows
+buildozer win64 debug
