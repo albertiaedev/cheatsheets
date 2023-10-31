@@ -41,3 +41,14 @@ BoxLayout:
     Button:
         text: 'Press Me!'
         on_press: app.on_button_press()
+
+# Python code
+class MyApp(App):
+    def build(self):
+        return Builder.load_file('my_kv_file.kv')
+
+    def on_button_press(self):
+        print('Button pressed!')
+
+if __name__ == '__main__':
+    MyApp().run()
