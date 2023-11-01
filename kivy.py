@@ -96,4 +96,10 @@ class MyApp(App):
     def build(self):
         return box_layout
 
+# Run the app
+if __name__ == '__main__':
+    MyApp().run()
 
+'''
+You built a Kivy app
+'''
