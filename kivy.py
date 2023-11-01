@@ -71,3 +71,6 @@ This is an example of how to build a Kivy app
 from kivy.app import App
 from kivy.uix.label import Label
 from kivy.uix.button import Button
+
+# Create a label widget
+label = Label(text='Hello, Kivy!')
