@@ -81,3 +81,5 @@ button = Button(text='Click Me!')
 # Bind the button press event to a function
 def on_button_click():
     print('Button clicked!')
+
+button.bind(on_press=on_button_click)
