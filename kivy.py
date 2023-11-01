@@ -90,3 +90,10 @@ box_layout = BoxLayout(orientation='vertical')
 # Add the widgets to the box layout
 box_layout.add_widget(label)
 box_layout.add_widget(button)
+
+# Create a Kivy app
+class MyApp(App):
+    def build(self):
+        return box_layout
+
+
