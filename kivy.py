@@ -74,3 +74,6 @@ from kivy.uix.button import Button
 
 # Create a label widget
 label = Label(text='Hello, Kivy!')
+
+# Create a button widget
+button = Button(text='Click Me!')
