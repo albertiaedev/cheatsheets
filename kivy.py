@@ -61,3 +61,13 @@ buildozer ios debug
 
 # Build the app for Windows
 buildozer win64 debug
+
+
+'''
+This is an example of how to build a Kivy app
+'''
+
+# Import the necessary modules
+from kivy.app import App
+from kivy.uix.label import Label
+from kivy.uix.button import Button
