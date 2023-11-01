@@ -83,3 +83,6 @@ def on_button_click():
     print('Button clicked!')
 
 button.bind(on_press=on_button_click)
+
+# Create a box layout to arrange the widgets
+box_layout = BoxLayout(orientation='vertical')
