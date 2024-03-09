@@ -10,6 +10,12 @@ from torch import nn
 module = nn.Linear(in_features=1,out_features=1)
 print(type(module))
 
+
 #Data imports
 # Import PyTorch Dataset (you can store your data here) and DataLoader (you can load your data here)
 from torch.utils.data import Dataset, DataLoader
+
+
+#Creating tensors
+# Create a single number tensor (scalar)
+scalar = torch.tensor(7)
