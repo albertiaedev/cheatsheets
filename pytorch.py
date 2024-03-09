@@ -19,3 +19,5 @@ from torch.utils.data import Dataset, DataLoader
 #Creating tensors
 # Create a single number tensor (scalar)
 scalar = torch.tensor(7)
+# Create a random tensor
+random_tensor = torch.rand(size=(3, 4)) # this will create a tensor of size 3x4 but you can manipulate the shape how you want
