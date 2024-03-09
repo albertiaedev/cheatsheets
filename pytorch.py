@@ -9,3 +9,7 @@ from torch import nn
 # Almost everything in PyTorch is called a "Module" (you build neural networks by stacking together Modules)
 module = nn.Linear(in_features=1,out_features=1)
 print(type(module))
+
+#Data imports
+# Import PyTorch Dataset (you can store your data here) and DataLoader (you can load your data here)
+from torch.utils.data import Dataset, DataLoader
