@@ -25,3 +25,8 @@ random_tensor = torch.rand(size=(3, 4)) # this will create a tensor of size 3x4 
 random_tensor_1 = torch.rand(size=(3, 4))
 random_tensor_2 = torch.rand(size=(3, 4))
 random_tensor_3 = random_tensor_1 * random_tensor_2 # PyTorch has support for most math operators in Python (+, *, -, /)
+
+
+#Computer vision
+# Base computer vision library
+import torchvision
