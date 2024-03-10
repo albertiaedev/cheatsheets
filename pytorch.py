@@ -30,3 +30,5 @@ random_tensor_3 = random_tensor_1 * random_tensor_2 # PyTorch has support for mo
 #Computer vision
 # Base computer vision library
 import torchvision
+# Other components of TorchVision (premade datasets, pretrained models and image transforms)
+from torchvision import datasets, models, transforms
