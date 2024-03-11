@@ -44,3 +44,6 @@ from torchtext import datasets, models, transforms
 #Audio and speech
 # Base audio and speech processing library
 import torchaudio
+# Other components of TorchAudio (premade datasets, pretrained models and text transforms)
+from torchaudio import datasets, models, transforms
+
