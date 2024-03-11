@@ -37,3 +37,6 @@ from torchvision import datasets, models, transforms
 #Text and natural language processing (NLP)
 # Base text and natural language processing library
 import torchtext
+# Other components of TorchText (premade datasets, pretrained models and text transforms)
+from torchtext import datasets, models, transforms
+
