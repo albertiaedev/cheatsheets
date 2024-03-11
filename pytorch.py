@@ -40,3 +40,7 @@ import torchtext
 # Other components of TorchText (premade datasets, pretrained models and text transforms)
 from torchtext import datasets, models, transforms
 
+
+#Audio and speech
+# Base audio and speech processing library
+import torchaudio
