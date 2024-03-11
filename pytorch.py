@@ -32,3 +32,8 @@ random_tensor_3 = random_tensor_1 * random_tensor_2 # PyTorch has support for mo
 import torchvision
 # Other components of TorchVision (premade datasets, pretrained models and image transforms)
 from torchvision import datasets, models, transforms
+
+
+#Text and natural language processing (NLP)
+# Base text and natural language processing library
+import torchtext
