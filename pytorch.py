@@ -64,3 +64,7 @@ print(f"Using device: {device}")
 # Create a tensor 
 x = torch.tensor([1, 2, 3]) 
 print(x.device) # defaults to CPU 
+# Send tensor to target device
+x = x.to(device)
+print(x.device)
+
