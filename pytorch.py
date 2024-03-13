@@ -58,3 +58,9 @@ else:
     device = "cpu" # Defaults to CPU if NVIDIA GPU/Apple GPU aren't available
 
 print(f"Using device: {device}")
+
+
+#Sending a tensor to target device
+# Create a tensor 
+x = torch.tensor([1, 2, 3]) 
+print(x.device) # defaults to CPU 
