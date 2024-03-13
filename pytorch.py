@@ -47,3 +47,14 @@ import torchaudio
 # Other components of TorchAudio (premade datasets, pretrained models and text transforms)
 from torchaudio import datasets, models, transforms
 
+
+#Device-agnostic code (using PyTorch on CPU, GPU or MPS)
+# Setup device-agnostic code 
+if torch.cuda.is_available():
+    device = "cuda" # NVIDIA GPU
+elif torch.backends.mps.is_available():
+    device = "mps" # Apple GPU
+else:
+    device = "cpu" # Defaults to CPU if NVIDIA GPU/Apple GPU aren't available
+
+print(f"Using device: {device}")
