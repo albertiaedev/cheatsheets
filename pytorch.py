@@ -68,3 +68,5 @@ print(x.device) # defaults to CPU
 x = x.to(device)
 print(x.device)
 
+#Setting random seeds
+import torch
