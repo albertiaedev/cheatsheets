@@ -73,3 +73,5 @@ import torch
 # Set the random seed (you can set this to any number you like, it will "flavour"
 # the randomness with that number.
 torch.manual_seed(42)
+# Create two random tensors
+random_tensor_A = torch.rand(3, 4)
