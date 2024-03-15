@@ -70,3 +70,6 @@ print(x.device)
 
 #Setting random seeds
 import torch
+# Set the random seed (you can set this to any number you like, it will "flavour"
+# the randomness with that number.
+torch.manual_seed(42)
