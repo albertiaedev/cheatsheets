@@ -75,3 +75,5 @@ import torch
 torch.manual_seed(42)
 # Create two random tensors
 random_tensor_A = torch.rand(3, 4)
+torch.manual_seed(42) # set the seed again (try commenting this out and see what happens)
+random_tensor_B = torch.rand(3, 4)
