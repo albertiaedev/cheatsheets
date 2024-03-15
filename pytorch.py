@@ -77,3 +77,8 @@ torch.manual_seed(42)
 random_tensor_A = torch.rand(3, 4)
 torch.manual_seed(42) # set the seed again (try commenting this out and see what happens)
 random_tensor_B = torch.rand(3, 4)
+print(f"Tensor A:\n{random_tensor_A}\n")
+print(f"Tensor B:\n{random_tensor_B}\n")
+print(f"Does Tensor A equal Tensor B? (anywhere)")
+random_tensor_A == random_tensor_B
+
