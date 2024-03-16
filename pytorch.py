@@ -81,4 +81,6 @@ print(f"Tensor A:\n{random_tensor_A}\n")
 print(f"Tensor B:\n{random_tensor_B}\n")
 print(f"Does Tensor A equal Tensor B? (anywhere)")
 random_tensor_A == random_tensor_B
+# Set random seed on GPU
+torch.cuda.manual_seed(42)
 
