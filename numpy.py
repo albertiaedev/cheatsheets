@@ -14,3 +14,4 @@ import numpy as np
 7. np.random.rand # Array of random numbers from an uniform distribution
 8. np.sum # Compute the sum of array elements
 9. np.mean # Compute the mean of array elements
+10. np.argmax # Find the index of max value in an array
