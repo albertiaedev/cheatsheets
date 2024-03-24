@@ -10,3 +10,4 @@ import numpy as np
 3. np.zeros # Create an array filled with zeros
 4. np.ones # Create an array filled with ones
 5. np.linspace # Evenly spaced numbers over a specified range
+6. np.reshape # Reshape an array into a new shape
