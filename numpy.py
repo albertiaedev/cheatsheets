@@ -15,3 +15,4 @@ import numpy as np
 8. np.sum # Compute the sum of array elements
 9. np.mean # Compute the mean of array elements
 10. np.argmax # Find the index of max value in an array
+11. np.argmin # Find the index of min value in an array
