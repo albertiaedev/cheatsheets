@@ -11,3 +11,4 @@ import numpy as np
 4. np.ones # Create an array filled with ones
 5. np.linspace # Evenly spaced numbers over a specified range
 6. np.reshape # Reshape an array into a new shape
+7. np.random.rand # Array of random numbers from an uniform distribution
