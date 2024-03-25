@@ -19,3 +19,4 @@ import numpy as np
 12. np.max() # Find the maximum value in an array
 13. np.min() # Find the minimum value in an array
 14. np.dot() # Compute the dot product of two arrays
+15. np.transponse() # Transponse an array
