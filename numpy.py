@@ -18,3 +18,4 @@ import numpy as np
 11. np.argmin() # Find the index of min value in an array
 12. np.max() # Find the maximum value in an array
 13. np.min() # Find the minimum value in an array
+14. np.dot() # Compute the dot product of two arrays
