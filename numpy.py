@@ -22,3 +22,4 @@ import numpy as np
 15. np.transponse() # Transponse an array
 16. np.concatanate() # Concatanate arrays along a specified axis
 17. np.vstack() # Stack arrays vertically (row-wise)
+18. np.hstack() # Stack arrays horinzontally (column-wise)
