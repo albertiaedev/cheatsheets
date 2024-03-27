@@ -23,3 +23,4 @@ import numpy as np
 16. np.concatanate() # Concatanate arrays along a specified axis
 17. np.vstack() # Stack arrays vertically (row-wise)
 18. np.hstack() # Stack arrays horinzontally (column-wise)
+19. np.split() # Split an array into multiple sub-arrays
