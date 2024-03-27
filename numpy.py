@@ -20,3 +20,4 @@ import numpy as np
 13. np.min() # Find the minimum value in an array
 14. np.dot() # Compute the dot product of two arrays
 15. np.transponse() # Transponse an array
+16. np.concatanate() # Concatanate arrays along a specified axis
