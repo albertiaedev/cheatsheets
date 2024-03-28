@@ -89,3 +89,5 @@ from torch import nn
 # Linear Layers
 # Create a linear layer with 10 in features and out features
 linear_layer = nn.Linear(in_features=10, out_features=10)
+# Create an Identity layer
+identity_layer = nn.Identity()
