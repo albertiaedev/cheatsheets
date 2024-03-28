@@ -84,3 +84,5 @@ random_tensor_A == random_tensor_B
 # Set random seed on GPU
 torch.cuda.manual_seed(42)
 
+# Neural Networks
+from torch import nn
