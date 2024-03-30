@@ -94,3 +94,6 @@ identity_layer = nn.Identity()
 # Convolutional Layers
 # Create a Conv1d layer (often used for text with a singular dimension)
 conv1d = nn.Conv1d(in_channels=1, out_channels=10, kernel_size=3)
+# Create a Conv2d layer (often used for images with Height x Width dimensions)
+conv2d = nn.Conv2d(in_channels=3, # 3 channels for color images (red, green, blue)
+                   out_channels=10, kernel_size=3)                   
