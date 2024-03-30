@@ -91,3 +91,6 @@ from torch import nn
 linear_layer = nn.Linear(in_features=10, out_features=10)
 # Create an Identity layer
 identity_layer = nn.Identity()
+# Convolutional Layers
+# Create a Conv1d layer (often used for text with a singular dimension)
+conv1d = nn.Conv1d(in_channels=1, out_channels=10, kernel_size=3)
