@@ -108,3 +108,6 @@ transformer_encoder = nn.TransformerEncoderLayer(d_model=768, # embedding dimens
 # Stack together Transformer encoder cells
 transformer_encoder_stack = nn.TransformerEncoder(encoder_layer=transformer_encoder, # from above
                                                   num_layers=6) # 6 Transformer encoders stacked on top of each other
+# Create a single Transformer decoder cell
+transformer_decoder = nn.TransformerDecoderLayer(d_model=768,
+                                                 nhead=12)
