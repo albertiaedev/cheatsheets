@@ -98,4 +98,7 @@ conv1d = nn.Conv1d(in_channels=1, out_channels=10, kernel_size=3)
 conv2d = nn.Conv2d(in_channels=3, # 3 channels for color images (red, green, blue)
                    out_channels=10, kernel_size=3)   
 # Create a Conv3d layer (often used for video with Height x Width x Time dimensions)
-conv3d = nn.Conv3d(in_channels=3, out_channels=10, kernel_size=3)                
+conv3d = nn.Conv3d(in_channels=3, out_channels=10, kernel_size=3)
+# Transformer Layers
+# Create a Transformer model (model based on the paper "Attention Is All You Need" - https://arxiv.org/abs/1706.03762)
+transformer_model = nn.Transformer()
