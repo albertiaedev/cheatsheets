@@ -114,3 +114,7 @@ transformer_decoder = nn.TransformerDecoderLayer(d_model=768,
 # Stack together Transformer decoder cells
 transformer_decoder_stack = nn.TransformerDecoder(decoder_layer=transformer_decoder, # from above
                                                   num_layers=6) # 6 Transformer decoders stacked on top of each other
+# Recurrent Layers
+# Create a single LSTM cell
+lstm_cell = nn.LSTMCell(input_size=10, # can adjust as necessary
+                        hidden_size=10) # can adjust as necessary
