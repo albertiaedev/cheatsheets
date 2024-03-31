@@ -102,3 +102,6 @@ conv3d = nn.Conv3d(in_channels=3, out_channels=10, kernel_size=3)
 # Transformer Layers
 # Create a Transformer model (model based on the paper "Attention Is All You Need" - https://arxiv.org/abs/1706.03762)
 transformer_model = nn.Transformer()
+# Create a single Transformer encoder cell
+transformer_encoder = nn.TransformerEncoderLayer(d_model=768, # embedding dimension
+                                                 nhead=12) # number of attention heads
