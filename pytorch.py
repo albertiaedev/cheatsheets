@@ -105,3 +105,6 @@ transformer_model = nn.Transformer()
 # Create a single Transformer encoder cell
 transformer_encoder = nn.TransformerEncoderLayer(d_model=768, # embedding dimension
                                                  nhead=12) # number of attention heads
+# Stack together Transformer encoder cells
+transformer_encoder_stack = nn.TransformerEncoder(encoder_layer=transformer_encoder, # from above
+                                                  num_layers=6) # 6 Transformer encoders stacked on top of each other
