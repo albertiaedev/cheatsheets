@@ -125,3 +125,7 @@ lstm_stack = nn.LSTM(input_size=10,
 # Create a single GRU cell
 gru_cell = nn.GRUCell(input_size=10, # can adjust as necessary
                       hidden_size=10) # can adjust as necessary
+# Stack together GRU cells
+gru_stack = nn.GRU(input_size=10, 
+                   hidden_size=10,
+                   num_layers=3) # 3 single GRU cells stacked on top of each other 
