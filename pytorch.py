@@ -111,3 +111,6 @@ transformer_encoder_stack = nn.TransformerEncoder(encoder_layer=transformer_enco
 # Create a single Transformer decoder cell
 transformer_decoder = nn.TransformerDecoderLayer(d_model=768,
                                                  nhead=12)
+# Stack together Transformer decoder cells
+transformer_decoder_stack = nn.TransformerDecoder(decoder_layer=transformer_decoder, # from above
+                                                  num_layers=6) # 6 Transformer decoders stacked on top of each other
