@@ -118,3 +118,7 @@ transformer_decoder_stack = nn.TransformerDecoder(decoder_layer=transformer_deco
 # Create a single LSTM cell
 lstm_cell = nn.LSTMCell(input_size=10, # can adjust as necessary
                         hidden_size=10) # can adjust as necessary
+# Stack together LSTM cells
+lstm_stack = nn.LSTM(input_size=10,
+                     hidden_size=10,
+                     num_layers=3) # 3 single LSTM cells stacked on top of each other
