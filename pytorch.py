@@ -135,3 +135,5 @@ gru_stack = nn.GRU(input_size=10,
 relu = nn.ReLU()
 # Sigmoid
 sigmoid = nn.Sigmoid()
+# Softmax
+softmax = nn.Softmax()
