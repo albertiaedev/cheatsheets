@@ -129,3 +129,7 @@ gru_cell = nn.GRUCell(input_size=10, # can adjust as necessary
 gru_stack = nn.GRU(input_size=10, 
                    hidden_size=10,
                    num_layers=3) # 3 single GRU cells stacked on top of each other 
+
+#Activation Functions
+# ReLU
+relu = nn.ReLU()
