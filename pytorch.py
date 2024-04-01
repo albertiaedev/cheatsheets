@@ -133,3 +133,5 @@ gru_stack = nn.GRU(input_size=10,
 #Activation Functions
 # ReLU
 relu = nn.ReLU()
+# Sigmoid
+sigmoid = nn.Sigmoid()
