@@ -143,3 +143,5 @@ softmax = nn.Softmax()
 loss_fn = nn.L1Loss() # also known as MAE or mean absolute error
 # MSELoss
 loss_fn = nn.MSELoss() # also known as MSE or mean squared error
+# Binary cross entropy (for binary classification problems)
+loss_fn = nn.BCEWithLogitsLoss()
