@@ -147,3 +147,7 @@ loss_fn = nn.MSELoss() # also known as MSE or mean squared error
 loss_fn = nn.BCEWithLogitsLoss()
 # Cross entropy (for multi-class classification problems)
 loss_fn = nn.CrossEntropyLoss()
+
+#Optimizers
+# Create a baseline model
+model = nn.Transformer()
