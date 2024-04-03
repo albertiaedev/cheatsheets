@@ -137,3 +137,7 @@ relu = nn.ReLU()
 sigmoid = nn.Sigmoid()
 # Softmax
 softmax = nn.Softmax()
+
+#Loss Functions
+# L1Loss
+loss_fn = nn.L1Loss() # also known as MAE or mean absolute error
