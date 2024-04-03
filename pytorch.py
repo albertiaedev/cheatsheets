@@ -156,4 +156,7 @@ optimizer = torch.optim.SGD(lr=0.1, # set the learning rate (required)
                             params=model.parameters()) # tell the optimizer what parameters to optimize
 # Create a baseline model
 model = nn.Transformer()
+# Adam optimizer
+optimizer = torch.optim.Adam(lr=0.001, # set the learning rate (required)
+                             params=model.parameters()) # tell the optimizer what parameters to optimize
 
