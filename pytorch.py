@@ -141,3 +141,5 @@ softmax = nn.Softmax()
 #Loss Functions
 # L1Loss
 loss_fn = nn.L1Loss() # also known as MAE or mean absolute error
+# MSELoss
+loss_fn = nn.MSELoss() # also known as MSE or mean squared error
