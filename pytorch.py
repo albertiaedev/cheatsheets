@@ -151,3 +151,7 @@ loss_fn = nn.CrossEntropyLoss()
 #Optimizers
 # Create a baseline model
 model = nn.Transformer()
+# SGD (stochastic gradient descent)
+optimizer = torch.optim.SGD(lr=0.1, # set the learning rate (required)
+                            params=model.parameters()) # tell the optimizer what parameters to optimize
+
