@@ -145,3 +145,5 @@ loss_fn = nn.L1Loss() # also known as MAE or mean absolute error
 loss_fn = nn.MSELoss() # also known as MSE or mean squared error
 # Binary cross entropy (for binary classification problems)
 loss_fn = nn.BCEWithLogitsLoss()
+# Cross entropy (for multi-class classification problems)
+loss_fn = nn.CrossEntropyLoss()
